@@ -10,4 +10,4 @@ do
     first_char=$(echo "${data[j]:0:1}")
     mv "./${data[j]}" "../${first_char}/"
   done
-done
+done 
